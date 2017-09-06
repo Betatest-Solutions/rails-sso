@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -28,8 +28,15 @@ gem "puma"
 
 gem 'devise'
 
+#gem 'omniauth-oauth2', '~> 1.3.1'
+
 gem 'omniauth-google-oauth2'
 
+gem 'pry'
+ gem "pry-nav"
+ gem "pry-rails"
+
+gem 'nokogiri', '1.6.8.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
